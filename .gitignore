@@ -11,6 +11,9 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+# Ignore .npmrc file
+.npmrc
+
 build
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
@@ -144,7 +147,5 @@ dist
 .svelte-kit
 
 .DS_Store
-
-.npmrc
 
 # End of https://www.toptal.com/developers/gitignore/api/node
